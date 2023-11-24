@@ -1,0 +1,57 @@
+Project: Hotel Room Booking System
+
+Calculate the cost based on 
+	the number of nights and 
+	room type for hotel room bookings.
+
+BR001: $100 per night for standard rooms.
+BR002: $150 per night for deluxe rooms.
+BR003: $200 per night for suites.
+
+Apply discounts based on the length of stay:
+
+BR004: 10% discount for bookings of 3 or more consecutive nights.
+BR005: 15% discount for bookings of 7 or more consecutive nights.
+BR006: No additional discounts for bookings of fewer than 3 nights.
+BR007: Max 30 Night
+
+Determine the total cost by multiplying the base price per night with the 
+number of nights and applying any applicable discounts.
+
+FR001 : System display error if user enter invalid data in Room selection. 
+FR002 : System display error if user enter more then 30 night. 
+
+TR001 : System only accept numeric value. 
+
+New Feature Requirement:
+
+FR003: Allow users to choose optional add-ons during the booking process, such as breakfast, 
+	airport shuttle, or spa services. Each add-on has a specific cost associated with it.
+	
+AO001: Breakfast - $20 per day.
+AO002: Airport Shuttle - $30 per trip.
+AO003: Spa Services - $50 per day.
+
+
+Additional Conditions for the New Feature:
+
+AO004: If a user books a suite for more than 5 consecutive nights and adds spa services, 
+	they get a 20% discount on the total cost of spa services.
+AO005: Users can only book airport shuttle services if their stay is 3 or more consecutive nights.
+AO006: If a user books a deluxe room for more than 3 consecutive nights and 
+	adds breakfast, they get a 10% discount on the total cost of breakfast.
+	
+Integration with Total Cost Calculation:
+TC003: Integrate the optional add-ons into the total cost calculation.
+ 
+The total cost now includes the base price for the room, 
+any applicable length-of-stay discounts, and the cost of selected add-ons.
+
+This new feature enhances the Hotel Room Booking System by providing users 
+with the flexibility to customize their stay with optional add-ons, 
+making their experience more tailored to their preferences.
+
+
+
+
+
